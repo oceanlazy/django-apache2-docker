@@ -1,0 +1,6 @@
+.git
+.idea
+Dockerfile
+README.md
+venv
+docker-compose.yml

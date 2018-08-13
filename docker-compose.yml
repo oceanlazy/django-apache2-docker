@@ -1,0 +1,13 @@
+version: "3"
+services:
+  django_apache2_docker_service:
+    image: django_apache2_docker
+    container_name: django_apache2_docker
+    # network_mode: "host" # if you want use host network
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    ports:
+      - "80:80" # host:container
