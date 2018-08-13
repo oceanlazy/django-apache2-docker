@@ -17,5 +17,5 @@ docker-compose up
 
 Enter to the shell while container is running:
 ```sh
-docker-compose exec django_apache2_docker bash
+docker-compose exec django_apache2_docker_service bash
 ```
